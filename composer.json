@@ -1,1 +1,21 @@
 
+ 
+{
+    "name": "nassima-msaddak/bloc-gutenberg",
+	
+    "description": "Bloc Gutenberg pour créer un post (Créer un article non publié et envoyer un email à(aux) admin(s))",
+	
+    "type": "wordpress-plugin", 
+	
+    "keywords": [
+        "wordpress",
+        "plugin",
+        "bloc Gutenberg"
+    ],
+	
+    "homepage": "https://github.com/",
+  
+    "require": {
+        "php": ">=8.1"
+    }
+}
