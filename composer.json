@@ -6,7 +6,7 @@
     "description": "Bloc Gutenberg pour créer un post (Créer un article non publié et envoyer un email à(aux) admin(s))",
 	
     "type": "wordpress-plugin", 
-	
+    "version" : "1.0.0",	
     "keywords": [
         "wordpress",
         "plugin",
