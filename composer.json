@@ -13,8 +13,13 @@
         "bloc Gutenberg"
     ],
 	
-    "homepage": "https://github.com/",
-  
+    "repositories": [
+        {
+                 "type": "vcs",
+                 "url": "git@github.com:nassima-msaddak/bloc-gutenberg.git"          
+        }
+         ],
+	
     "require": {
         "php": ">=8.1"
     }
