@@ -15,7 +15,7 @@
 	
     "repositories": [
         {
-                 "type": "git",
+                 "type": "vcs",
                  "url": "git@github.com:nassima-msaddak/bloc-gutenberg.git"          
         }
          ],
