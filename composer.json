@@ -24,13 +24,4 @@
     "require": {
         "php": ">=8.1"
     },
-
-
-    "config": {
-        "vendor-dir": "wp-content/plugins"
-    }
-
-
-
-
 }
