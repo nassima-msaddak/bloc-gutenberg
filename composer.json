@@ -26,5 +26,5 @@
         "wpackagist-plugin/akismet":"^4.1",
         "wpackagist-plugin/bbpress":">=2.5.12",
         "wpackagist-theme/twentynineteen":"*"
-    },
+    }
 }
