@@ -12,13 +12,7 @@
         "bloc Gutenberg"
     ],
 	
-    "homepage": "https://github.com/",
-    "repositories": [
-        {
-                 "type": "vcs",
-                 "url": "git@github.com:nassima-msaddak/bloc-gutenberg.git"          
-        }
-         ],
+    "homepage": "https://github.com/", 
 	
      "type": "wordpress-plugin",
     "require": {
