@@ -16,6 +16,7 @@
 	
      "type": "wordpress-plugin",
     "require": {
-        "php": ">=8.1"
+        "php": ">=8.1",
+	"wpackagist-plugin/gutenberg": "^15.0"
     }
 }
