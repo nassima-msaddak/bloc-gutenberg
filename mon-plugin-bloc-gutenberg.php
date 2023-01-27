@@ -9,9 +9,9 @@
 */
 
 
-
- require_once(dirname(dirname(dirname(dirname(__FILE__))))."\wp-includes\pluggable.php" );  
- require_once(dirname(dirname(dirname(dirname(__FILE__))))."\wp-admin\includes\post.php" ); 
+// Pour wordpress installé avec roots/bedrock
+ require_once(dirname(dirname(dirname(dirname(__FILE__))))."\wp\wp-includes\pluggable.php" );  
+ require_once(dirname(dirname(dirname(dirname(__FILE__))))."\wp\wp-admin\includes\post.php" ); 
 
 
 
@@ -33,8 +33,8 @@ add_action( 'init', 'create_bloc_init' );   // ajouter bloc gutenberg
 
 function send_email_to_admins( $titre , $message )
 {
-    $subject = 'Un nouveau post d’article « '. strip_tags($_POST["titre"]) .'! » non publié'; 
-	$message = '<div> <label>Titre:</label><p>'.strip_tags($_POST["titre"]). '</p><br><label>Message:</label><p>'. strip_tags($_POST["message"] )."</p></div>"; 
+    $subject = 'Un nouveau post d’article « '. strip_tags($titre) .'! » non publié'; 
+	$message = '<div> <label>Titre:</label><p>'.strip_tags($titre). '</p><br><label>Message:</label><p>'. strip_tags($message)."</p></div>"; 
 
     $admins = get_users( array( 'role__in' => array( 'administrator' ) ) );
     foreach ( $admins as $admin ) { 
